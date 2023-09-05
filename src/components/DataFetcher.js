@@ -21,7 +21,7 @@ function DataFetcher() {
 
   return (
     <div>
-      <h1>Data from API:</h1>
+      <h1>Data Fetched from API</h1>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
