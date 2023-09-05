@@ -32,7 +32,7 @@ function DataFetcher() {
       {isLoading ? (
         <p>Loading...</p>
       ) : error ? (
-        <p>Error: {error.message}</p>
+        <p>An error occurred: {error.message}</p>
       ) : data ? (
         <pre>{JSON.stringify(data, null, 2)}</pre>
       ) : (
